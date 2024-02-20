@@ -1,0 +1,29 @@
+{% extends 'tyytiki/base.html' %}
+
+{% block content %}
+        {% for c in cats %}
+
+                {% for p in prods %}
+                    <main style="display: flex">
+                        <div class="card" style="display: flex">
+                            <div class="container" style="display: flex">
+
+                                {% if p.image %}
+                                <img src="{{p.image.url}}" alt="{{p.name}}">
+                                {% endif %}
+                                <div class="card-content">
+                                    <h2>-->
+                                        {{p.name}}
+                                    </h2>
+                                    <p>
+                                        {{ p.description }}
+                                        {{ p.price}}
+                                    </p>
+                                    <a href="{{ p.get_absolute_url }}" class="button">Жми сюда если осмелишься</a>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                {% endfor %}
+        {% endfor %}
+{% endblock %}
