@@ -1,0 +1,55 @@
+{% extends 'tyytiki/base.html' %}
+{% load static %}
+
+
+{% block content %}
+			<header class="hero-section">
+				<img data-speed=".6" class="hero" src="{% static 'tyytiki/img/ruki.jpeg' %}" alt="Alt" >
+				<div class="container">
+					<div data-speed=".75" class="main-header">
+						<h1 class="main-title">TyyTiki ручная работа</h1>
+					</div>
+				</div>
+			</header>
+
+			<div class="portfolio">
+				<div class="container">
+					<main class="gallery">
+
+						<div data-speed=".9" class="gallery__left">
+
+
+							<a href=""><img class="gallery__item" src="{% static 'tyytiki/img/ptica_obl.png' %}" alt="Alt"></a>
+							<a href=""><img class="gallery__item" src="{% static 'tyytiki/img/sergi_obl.jpg' %}" alt="Alt"></a>
+
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Тут вы сможете познакомиться с моим творчеством.</h2>
+								<p class="text-block__p">Приглашаю посетить галерею.</p>
+							</div>
+
+							<a href=""><img class="gallery__item" src="{% static 'tyytiki/img/podveski.jpeg' %}" alt="Alt"></a>
+
+						</div>
+
+						<div data-speed="1.1" class="gallery__right">
+
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Купите пожалуйста все что тут есть!</h2>
+								<p class="text-block__p">А денежки переведите по номеру 89128753516</p>
+							</div>
+
+							<a href=""><img class="gallery__item" src="{% static 'tyytiki/img/broshi_obl.jpeg' %}" alt="Alt"></a>
+							<a href=""><img class="gallery__item" src="{% static 'tyytiki/img/chelovek.jpeg' %}" alt="Alt"></a>
+							<a href="/earrings"><img class="gallery__item" src="{% static 'tyytiki/img/galery.jpeg' %}" alt="Alt"></a>
+
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Не забывайте купить все что тут есть!</h2>
+								<p class="text-block__p">А денежки переведите по номеру 89128753516</p>
+							</div>
+
+						</div>
+
+					</main>
+				</div>
+			</div>
+{% endblock %}
