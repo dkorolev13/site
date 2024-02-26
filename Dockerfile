@@ -34,4 +34,3 @@ COPY --from=requirements-stage $VIRTUAL_ENV $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 COPY app .
-

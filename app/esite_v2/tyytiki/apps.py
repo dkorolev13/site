@@ -2,5 +2,5 @@ from django.apps import AppConfig
 
 
 class TyytikiConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'tyytiki'
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "tyytiki"
