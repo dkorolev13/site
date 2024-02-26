@@ -11,7 +11,7 @@
 ### Install project
 
 1. install [poetry](https://python-poetry.org/docs/)
-2. clone this [project] (https://github.com/dkorolev13/site.git)
+2. clone this [project](https://github.com/dkorolev13/site.git)
 3. cd to project directory
 4. run:
 
