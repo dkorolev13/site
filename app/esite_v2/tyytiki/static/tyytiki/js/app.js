@@ -48,5 +48,3 @@ if (ScrollTrigger.isTouch !== 1) {
 	})
 
 }
-
-
